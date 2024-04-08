@@ -1,0 +1,19 @@
+# Functions for fruit app
+
+include FruitConnect.txt
+
+# Give banana time to grow
+growBanana($banana, $start, $end, $length) {
+	if($banana,
+		$output = $end - $start,
+		$output =$length
+	)
+	
+	return $output
+}
+
+# Reveal banana contents
+peelBanana($banana) {
+	$banana = SELECT id, length FROM Bananas;
+	"Banana " . $banana['id'] . " is " $banana['length'] " inches long."
+}

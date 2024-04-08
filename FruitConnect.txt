@@ -1,0 +1,6 @@
+# Test file containing DB login
+
+source = fruitdb.mpnexlevel.us
+dbname = bananas
+dbuser = chimp
+dbpw = B@nanaP33L
